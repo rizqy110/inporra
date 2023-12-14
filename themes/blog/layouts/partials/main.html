@@ -1,0 +1,14 @@
+{{ if isset .Params "tags" }}
+<article class="d-g gg-15 body" itemtype="https://schema.org/CreativeWork" itemscope>
+  {{ if .Params.img }}<img class="thumb of-c d-b p-2" src="{{ .Params.img }}" alt="{{ .Params.fKW }}" itemprop="image">{{ else }}{{ end }}
+  <h1 class="fs-20" itemprop="headline">{{ .Page.Title }}</h1>
+  <div class="d-g gg-15 body" itemprop="text">
+    {{ .TableOfContents }}
+    {{- .Content -}}
+    {{- partial "meta.html" . -}}
+    {{- partial "related.html" . -}}
+  </div>
+</article>
+{{ else }}
+{{- .Content -}}
+{{ end }}

@@ -1,0 +1,22 @@
+<div class="d-f jc-sb ai-c gg-15">
+  {{ if .IsHome }}
+  <h1 class="fs-20">{{ .Title }}</h1>
+  {{- else if .IsPage -}}
+  <h1 class="fs-20 ai-c ta-c">{{ .Site.Title }} » <a href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Title }}</a></h1>
+  {{ else }}
+  <h1 class="fs-20 ai-c ta-c">{{ .Site.Title }} {{ .Page.Title }}</a></h1>
+  {{ end }}
+  
+  {{ if .IsHome }}
+  <div class="d-f gg-10 ai-c">
+    <b><a href="/kontak-kami/">Kontak Kami</a></b>
+    | <b><a href="/tags">Tags</a></b>
+  </div>
+  {{ else }}
+  <h2>
+    <a class="c-3 d-f ai-c" href="/">
+     🌐
+    </a>
+  </h2>
+  {{ end }}
+</div>

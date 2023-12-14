@@ -1,0 +1,3 @@
+<div class="d-f ai-c fs-15">  
+  <p><b>Tags: </b>{{ range $key, $value := $.Params.tags }}<a class="c-r" href="/tags/{{ $value | urlize }}">#{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}.{{ end }}{{ end }}</p>
+</div>

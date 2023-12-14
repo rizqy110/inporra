@@ -1,0 +1,24 @@
+<related>
+  {{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <div class="d-g gg-15">
+    <span class="bbs-d d-f jc-sb ai-c gg-10"><h2 class="d-f ai-c gg-10 body">Baca Juga Artikel Lainnya</h2> <a class="c-4 d-f gg-10 ai-c" href="#top">🔝</a></span>
+    <div class="d-g gg-15">
+      {{ range . }}
+      <article itemtype="https://schema.org/CreativeWork" itemscope>
+        <a class="d-f ai-c gg-15 fs-20 mb-7 o-h" href="{{ .Permalink }}" rel="bookmark">
+          📃
+          <h3 class="o-h to-e d-1le fs-20" itemprop="headline">
+            {{ .Title }}
+          </h3>
+        </a>
+        <p class="fs-20 o-h to-e c-3 o-h d-5le" itemprop="text">
+          {{- partial "time_ago.html" . -}}— 
+          {{ .Summary }}
+        </p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</related>
