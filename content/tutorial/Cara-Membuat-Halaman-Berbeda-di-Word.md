@@ -1,6 +1,6 @@
 ---
 title: "Cara Membuat Halaman Berbeda Di Word"
-date: 2023-12-24T21:56:10+07:00
+date: 2024-03-03T21:56:10+07:00
 draft: false
 fKW: "Cara Bikin Halaman Di Word"
 img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKnlHV9CFMJze5whpU3QdcS_muMOWmBhOuqa35rZO8JQFBrUNjJgZOe-BxoZTbJjcQIKu_hrt4uFGDzI0y5dRzysgZ6dWPc3niEAwJpe5rp7QI99T0eHLmD7pzCmV7ZmU3mULZBPIIcs9bXKY8TwoGHJw38R9N6bC6OKtbfWG53oAqYnaOljB6h1Z7cAL_/s480/cara-bikin-halaman-di-word.webp"

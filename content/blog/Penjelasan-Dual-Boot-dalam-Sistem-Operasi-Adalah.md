@@ -1,6 +1,6 @@
 ---
 title: "Penjelasan Singkat, Dual Boot Dalam Sistem Operasi Adalah"
-date: 2023-12-05T09:42:12+07:00
+date: 2024-03-04T09:56:10+07:00
 draft: false
 fKW: "Dual Boot"
 img: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2sKskWKFJAn4lUXbOCj_e46aGJMGzB72jlliAtP8wZwH-06Lkl-nC0Is4UWZSSaSvY_ZI57Y3XNroBgdJizMz_sx1RfdPyXZtAM3Oty2LzOgoOTZ6NtQA8xxMz8eHd4TDH8yp-kXaDQgME-HAQn0pBYi1AUwT9ol9HYGa1WuwtnllhcszYVEHUgPlayQ2/s480/dual-boot.webp"
